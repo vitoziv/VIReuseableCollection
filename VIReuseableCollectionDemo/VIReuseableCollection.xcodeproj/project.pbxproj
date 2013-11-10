@@ -13,8 +13,7 @@
 		5FD30DD5182F3D27008F836F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DD3182F3D27008F836F /* InfoPlist.strings */; };
 		5FD30DD7182F3D27008F836F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD30DD6182F3D27008F836F /* main.m */; };
 		5FD30DDB182F3D27008F836F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD30DDA182F3D27008F836F /* AppDelegate.m */; };
-		5FD30DDE182F3D27008F836F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DDC182F3D27008F836F /* Main_iPhone.storyboard */; };
-		5FD30DE1182F3D27008F836F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DDF182F3D27008F836F /* Main_iPad.storyboard */; };
+		5FD30DDE182F3D27008F836F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DDC182F3D27008F836F /* Main.storyboard */; };
 		5FD30DE4182F3D27008F836F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD30DE3182F3D27008F836F /* ViewController.m */; };
 		5FD30DE6182F3D27008F836F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DE5182F3D27008F836F /* Images.xcassets */; };
 		5FD30DED182F3D27008F836F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD30DEC182F3D27008F836F /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		5FD30DEF182F3D27008F836F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD30DCE182F3D27008F836F /* UIKit.framework */; };
 		5FD30DF7182F3D27008F836F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD30DF5182F3D27008F836F /* InfoPlist.strings */; };
 		5FD30DF9182F3D27008F836F /* VIReuseableCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD30DF8182F3D27008F836F /* VIReuseableCollectionTests.m */; };
+		5FD30E06182F3D8C008F836F /* VIArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD30E04182F3D8C008F836F /* VIArrayDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,7 @@
 		5FD30DD8182F3D27008F836F /* VIReuseableCollection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIReuseableCollection-Prefix.pch"; sourceTree = "<group>"; };
 		5FD30DD9182F3D27008F836F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FD30DDA182F3D27008F836F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FD30DDD182F3D27008F836F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5FD30DE0182F3D27008F836F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5FD30DDD182F3D27008F836F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FD30DE2182F3D27008F836F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5FD30DE3182F3D27008F836F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FD30DE5182F3D27008F836F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,9 @@
 		5FD30DF4182F3D27008F836F /* VIReuseableCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIReuseableCollectionTests-Info.plist"; sourceTree = "<group>"; };
 		5FD30DF6182F3D27008F836F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FD30DF8182F3D27008F836F /* VIReuseableCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIReuseableCollectionTests.m; sourceTree = "<group>"; };
+		5FD30E03182F3D8C008F836F /* VIArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIArrayDataSource.h; sourceTree = "<group>"; };
+		5FD30E04182F3D8C008F836F /* VIArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIArrayDataSource.m; sourceTree = "<group>"; };
+		5FD30E05182F3D8C008F836F /* VIMathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMathUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +116,10 @@
 		5FD30DD0182F3D27008F836F /* VIReuseableCollection */ = {
 			isa = PBXGroup;
 			children = (
+				5FD30E02182F3D8C008F836F /* VIReuseableCollection */,
 				5FD30DD9182F3D27008F836F /* AppDelegate.h */,
 				5FD30DDA182F3D27008F836F /* AppDelegate.m */,
-				5FD30DDC182F3D27008F836F /* Main_iPhone.storyboard */,
-				5FD30DDF182F3D27008F836F /* Main_iPad.storyboard */,
+				5FD30DDC182F3D27008F836F /* Main.storyboard */,
 				5FD30DE2182F3D27008F836F /* ViewController.h */,
 				5FD30DE3182F3D27008F836F /* ViewController.m */,
 				5FD30DE5182F3D27008F836F /* Images.xcassets */,
@@ -153,6 +155,17 @@
 				5FD30DF5182F3D27008F836F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD30E02182F3D8C008F836F /* VIReuseableCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5FD30E03182F3D8C008F836F /* VIArrayDataSource.h */,
+				5FD30E04182F3D8C008F836F /* VIArrayDataSource.m */,
+				5FD30E05182F3D8C008F836F /* VIMathUtil.h */,
+			);
+			name = VIReuseableCollection;
+			path = ../../VIReuseableCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD30DE1182F3D27008F836F /* Main_iPad.storyboard in Resources */,
 				5FD30DE6182F3D27008F836F /* Images.xcassets in Resources */,
-				5FD30DDE182F3D27008F836F /* Main_iPhone.storyboard in Resources */,
+				5FD30DDE182F3D27008F836F /* Main.storyboard in Resources */,
 				5FD30DD5182F3D27008F836F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +268,7 @@
 				5FD30DE4182F3D27008F836F /* ViewController.m in Sources */,
 				5FD30DDB182F3D27008F836F /* AppDelegate.m in Sources */,
 				5FD30DD7182F3D27008F836F /* main.m in Sources */,
+				5FD30E06182F3D8C008F836F /* VIArrayDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,20 +299,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5FD30DDC182F3D27008F836F /* Main_iPhone.storyboard */ = {
+		5FD30DDC182F3D27008F836F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5FD30DDD182F3D27008F836F /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5FD30DDF182F3D27008F836F /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FD30DE0182F3D27008F836F /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5FD30DF5182F3D27008F836F /* InfoPlist.strings */ = {
@@ -474,6 +479,7 @@
 				5FD30DFE182F3D27008F836F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD30DFF182F3D27008F836F /* Build configuration list for PBXNativeTarget "VIReuseableCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +488,7 @@
 				5FD30E01182F3D27008F836F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
