@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1C74E1183105C9006C9929 /* DFDateFormatterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C74E0183105C9006C9929 /* DFDateFormatterFactory.m */; };
 		5FD30DCB182F3D27008F836F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD30DCA182F3D27008F836F /* Foundation.framework */; };
 		5FD30DCD182F3D27008F836F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD30DCC182F3D27008F836F /* CoreGraphics.framework */; };
 		5FD30DCF182F3D27008F836F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD30DCE182F3D27008F836F /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F1C74DF183105C9006C9929 /* DFDateFormatterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDateFormatterFactory.h; sourceTree = "<group>"; };
+		5F1C74E0183105C9006C9929 /* DFDateFormatterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDateFormatterFactory.m; sourceTree = "<group>"; };
 		5FD30DC7182F3D27008F836F /* VIReuseableCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIReuseableCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD30DCA182F3D27008F836F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FD30DCC182F3D27008F836F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F1C74DE183105C9006C9929 /* DFDateFormatterFactory */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C74DF183105C9006C9929 /* DFDateFormatterFactory.h */,
+				5F1C74E0183105C9006C9929 /* DFDateFormatterFactory.m */,
+			);
+			path = DFDateFormatterFactory;
+			sourceTree = "<group>";
+		};
 		5FD30DBE182F3D27008F836F = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +172,7 @@
 		5FD30E02182F3D8C008F836F /* VIReuseableCollection */ = {
 			isa = PBXGroup;
 			children = (
+				5F1C74DE183105C9006C9929 /* DFDateFormatterFactory */,
 				5FD30E03182F3D8C008F836F /* VIArrayDataSource.h */,
 				5FD30E04182F3D8C008F836F /* VIArrayDataSource.m */,
 				5FD30E05182F3D8C008F836F /* VIMathUtil.h */,
@@ -268,6 +281,7 @@
 				5FD30DE4182F3D27008F836F /* ViewController.m in Sources */,
 				5FD30DDB182F3D27008F836F /* AppDelegate.m in Sources */,
 				5FD30DD7182F3D27008F836F /* main.m in Sources */,
+				5F1C74E1183105C9006C9929 /* DFDateFormatterFactory.m in Sources */,
 				5FD30E06182F3D8C008F836F /* VIArrayDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
