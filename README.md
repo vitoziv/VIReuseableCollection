@@ -1,4 +1,4 @@
-VIReuseCollection
+VIReuseableCollection
 =================
 
 Some reuseable Class collection 
